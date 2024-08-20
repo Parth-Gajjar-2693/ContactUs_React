@@ -1,0 +1,25 @@
+.navigation {
+  padding: 0 8px;
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation img {
+  margin-left: 2rem;
+  width: 5rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+  font-weight: 500;
+  margin-right: 4rem;
+}
+.navigation ul li:hover,
+.navigation img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
